@@ -7,7 +7,7 @@ const profiles = [
     tears_of_themis: false,
     zenless_zone_zero: false,
     accountName: "你的名字",
-    browserua:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/114.0.0.0"
+    browserua: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/114.0.0.0"
   }
 ];
 
@@ -41,6 +41,7 @@ function discordPing() {
 
 function autoSignFunction({
   token,
+  browserua,
   genshin = false,
   honkai_star_rail = false,
   honkai_3 = false,
